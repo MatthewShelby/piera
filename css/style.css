@@ -56,6 +56,10 @@ html::-webkit-scrollbar-thumb {
 
 body {
     background: #eee;
+    max-width: 1440px;
+    margin: auto;
+    min-width: 800px;
+    width: 100%;
 }
 
 body.active {
@@ -741,4 +745,12 @@ header.active {
 .about {
     font-size: 1.7rem;
     color: var(--black-color);
+}
+
+.fixed-section {
+    overflow-x: hidden;
+    max-width: 1440px;
+    margin: auto;
+    min-width: 800px;
+    width: 100%;
 }
